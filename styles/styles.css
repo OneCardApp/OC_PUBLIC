@@ -1,11 +1,3 @@
-h1 {
-    font-family: "Inter";
-    font-weight: 700;
-    font-size: 100px;
-    line-height: 65%;
-    color: red;
-}
-
 /* ————— TEXT OVERRIDES */
 // black: 800
 // bold: 700
@@ -18,12 +10,19 @@ h1 {
 @c-black: #3f3f3f;
 @c-gray: #E9EDF1;
 
-//     @media only screen and (max-width: 1000px) {
-//         font-size: 62px;
-//         font-weight: 800;
-//         line-height: 100%;
-//     }
-// }
+h1 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 65%;
+
+    @media only screen and (max-width: 1000px) {
+        font-size: 62px;
+        font-weight: 800;
+        line-height: 100%;
+        line-height: 40%;
+    }
+}
 
 p {
     font-family: "Inter";
