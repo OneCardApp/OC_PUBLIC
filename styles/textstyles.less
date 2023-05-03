@@ -1,7 +1,7 @@
 h1 {
     font-family: "Inter";
     font-weight: 700;
-    font-size: 100px;
+    font-size: 80px;
     line-height: 100%;
     margin: 0;
     color: @c-black;
@@ -21,6 +21,25 @@ h2 {
     font-family: "Inter";
     font-weight: 700;
     font-size: 80px;
+    line-height: 100%;
+    margin: 0;
+    color: @c-black;
+
+    @media only screen and (max-width: 1240px) {
+        font-size: 60px;
+        font-weight: 800;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        font-size: 50px;
+        font-weight: 800;
+    }
+}
+
+h3 {
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 50px;
     line-height: 100%;
     margin: 0;
     color: @c-black;
